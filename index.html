@@ -9,7 +9,8 @@
 </head>
 <body>
     <h1 id="site-title" class="site_title">Nick Fraus Game Dev</h1>
-    <p><a href="about.html">About Me</a></p>
+    <p><a href="about.html">About Me</a>  <a href="contact.html">Contact</a>
+</p>
     <h2 id="post_header_1" class="section-heading">Updates and Mistakes</h2>
     <p>
 
@@ -40,6 +41,7 @@
 
 
     <h2 id="post_header_2" class="section-heading">My First Blog Post</h2>
+    <section>
     <p>
         <em>Friday October 14 2022, By: Nickolas Fraus</em> <br>
 
@@ -53,15 +55,71 @@
 
         The room script contains information for each room in the game, like the type of room, and the completion status. This was simple enough. Each room type will generate differently  by using an enum and a switch statement. If the room is complete, nothing will generate at all.<br>
     </p>
+</section>
 
     <p> <img src="SPSScreenshot.png" width ="500" height="400" alt="Basic ungenerated room"></p>
-
+    <section>
     <p>
 
         The tricky part is handling the player, especially because there is two of them in the game. My idea for this is to have the doors tell the room when the player enters and leaves. The most challenging part is linking doors together to make this happen, because the current system teleports the player to a set position in a different room, not to a door.<br>
 
         I also met with the Combat Design team today, and boy do they have some cool ideas for the enemies. I am very excited to work on that next week, but I have to finish up my current task first.<br>
     </p>
-
+    </section>
+    <section>
+        <h3>Project Task Overview - Spartasoft Studio</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Difficulty(1-5)</th>
+                <th>Other Team Members</th>
+                <th>Time (hours)</th>
+            </tr>
+            <tr>
+                <td>GameManager</td>
+                <td>1</td>
+                <td>0</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>PlayerWeapon</td>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Enemy</td>
+                <td>3</td>
+                <td>4</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Room</td>
+                <td>5</td>
+                <td>0</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>PuzzleTrigger</td>
+                <td>3</td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>PuzzleManager</td>
+                <td>3</td>
+                <td>0</td>
+                <td>4</td>
+            </tr>
+            
+        </table>
+    </section>
+    <section>
+        <h2>Contact</h2>
+        <p><a href="contact.html">Contact</a></p>
+        <form>
+            <label></label>
+        </form>
+    </section>
 </body>
 </html>
