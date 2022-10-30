@@ -1,0 +1,32 @@
+body{
+    background-color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+
+}
+
+h1{
+fontsize: 3em;
+margin: 0;
+}
+
+p{
+line-height: 1.4em;
+
+}
+
+#blog1{
+border-top: 1px dotted #ccc;
+}
+
+#blog2{
+    border-top: 1px dotted #ccc;
+    }
+
+.blog-post{
+    border-bottom: 1px dotted #ccc;
+
+}
