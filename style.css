@@ -8,6 +8,24 @@ body{
 
 }
 
+section{
+    display: flex;
+}
+
+article{
+    background: #999;
+    padding: 20px;
+    margin: 20px;
+}
+
+article:nth-of-type(1){
+flex: 1;
+}
+
+article:nth-of-type(2){
+    flex: 1;
+}
+
 h1{
 fontsize: 3em;
 margin: 0;
@@ -29,4 +47,45 @@ border-top: 1px dotted #ccc;
 .blog-post{
     border-bottom: 1px dotted #ccc;
 
+}
+
+.navbar{
+    border: 3px solid black;
+    padding: 20px;
+    background-color: #fff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.contactform{
+    display:flex;
+    background-color: #999;
+    border-radius: 3px;
+    padding: 1.8px;
+}
+
+.form-comment{
+    margin-right: 2em;
+    display: flex;
+}
+.form-comment > textarea{
+    flex:2;
+    min-width: 20em;
+}
+.form-contact{
+    flex:1;
+}
+.form-contact input{
+    width: 100%
+}
+.form-contact input,
+.form-contact button{
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.form-contact button{
+    background:gray;
+    color: white;
+    border: 0;
 }

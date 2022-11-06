@@ -9,39 +9,36 @@
     <title>Nick Fraus Game Dev Blog</title>
 </head>
 <body>
-    <h1 id="site-title" class="site_title">Nick Fraus Game Dev</h1>
-    <p><a href="index.html">Home</a></p>
+    <div class="navbar">
+        <h1 id="site-title" class="site_title">Nick Fraus Game Dev</h1>
+        <p><a href="about.html">About Me</a>  <a href="index.html">Home</a>
+        </div>
     <h2 id="about_header" class="section-heading">Contact</h2>
 
     <section>
-        <form>
-        <div>
-            <label for="name">Name:</label>
-            <input type ="text" name="name" id="name"required></input>
-        </div>
-        <div>
-            <label for="name">Email:</label>
-            <input type ="text" name="name" id="name"required></input>
-        </div>
-        <div>
-            <label for="name">Reason For Contact:</label>
-            <input list="browsers">
-        </div>
-        <div>
-            <datalist id ="browsers">
-                    <option value ="Saying Hello"></option>
-                    <option value ="Contracting"></option>
-                    <option value ="Interview"></option>
-            </datalist>
-        </div>
-        <div>
+        <form class="contactform">
+        <div class="form-comment">
             <label for="comment">Comments:</label>
             <textarea id="comment" name="comment" rows="5" cols="33">
 
             </textarea>
 
         </div>
-        <button>Submit</button>
+        <div class="form-contact">
+            <label for="name">Name:</label>
+            <input type ="text" name="name" id="name" required>
+            <label for="email">Email:</label>
+            <input type ="text" name="email" id="email" required>
+
+            <label>Reason For Contact:</label>
+            <input list="browsers">
+            <datalist id ="browsers">
+                    <option value ="Saying Hello"></option>
+                    <option value ="Contracting"></option>
+                    <option value ="Interview"></option>
+            </datalist>
+            <button>Submit</button>
+        </div>
         </form>
     </section>
 </body>
