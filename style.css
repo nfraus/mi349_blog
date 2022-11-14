@@ -90,3 +90,8 @@ border-top: 1px dotted #ccc;
     color: white;
     border: 0;
 }
+@media (max-width:400px){
+    body{
+        background-color: red;
+    };
+}
